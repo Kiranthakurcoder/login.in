@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: black;
+}
+.login-container{
+    height:600px;
+    width: 100%;
+    background-image: url(groot\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-area{
+    height: 349px;
+    width: 531px;
+    /* background-color:#cfc1fe; */
+    background-color: transparent;
+    gap: 17px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid purple;
+
+}
+
+
+
+#id-type{
+
+    height: 32px;
+    width: 307px;
+    text-align: center;
+    border-radius: 23px;
+    border: 5px sloid red;
+    cursor: pointer;
+    border: none;
+    color: rgb(74, 6, 138);
+    /* background-color:transparent; */
+    
+}
+
+#id-type:hover{
+    background-color: blue;
+    color: aliceblue;
+
+}
+#password-type:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+#password-type{
+    height: 32px;
+    width: 307px;
+    text-align: center;
+    border-radius: 23px;
+    cursor: pointer;
+    border: none;
+    color: chocolate;
+
+
+
+}
+
+
+
+
+.forgrt-password{
+    
+    height: 50px;
+    width: 308px;
+    padding: 12px;
+  
+     display: flex; 
+     /* justify-content: space-between; */
+    align-items: center;
+      
+     gap:104px;
+
+}
+
+.submit{
+
+    height: 42px;
+    width:85px;
+    background-color: blue;
+    color: white;
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+
+
+}
+.submit:hover{
+    background-color: rgb(102, 102, 194);
+}
+
+.forget{
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left:3px;
+    color: pink;
+}
+.forget:hover{
+    background-color:red;
+}
